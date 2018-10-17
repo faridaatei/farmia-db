@@ -1,5 +1,5 @@
 from flask import (Flask, render_template, request, jsonify)
-from models.animals import Animal
+# from models.animals import Animal
 app_start_config = {'debug': True, 'port': 8080, 'host': '0.0.0.0'}
 app = Flask(__name__)
 
